@@ -1,0 +1,26 @@
+{
+  "HomePage": {
+    "test_task": "Test Task",
+    "start": "Start",
+    "information": "Information about breeds",
+    "home": "Home",
+    "all": "Breeds All",
+    "cats": "Cats",
+    "dogs": "Dogs"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Params": {
+    "name": "Name",
+    "origin": "Origin",
+    "life_span": "Life Span",
+    "adaptability": "Adaptability",
+    "affection_level": "Affection Level",
+    "child_friendly": "Child Friendly",
+    "energy_level": "Energy Level",
+    "grooming": "Grooming",
+    "social_needs": "Social Needs"
+  }
+}
