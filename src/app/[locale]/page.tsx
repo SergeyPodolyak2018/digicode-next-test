@@ -2,8 +2,8 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
-import LocaleSwitcher from '@/app/[locale]/ui/LocaleSwitcher.tsx';
-
+import LocaleSwitcher from '@/app/[locale]/ui/LocaleSwitcher';
+//@ts-ignore
 export default function Home({ params: { locale } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('HomePage');
